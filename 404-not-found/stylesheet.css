@@ -1,0 +1,67 @@
+html {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+header {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 77px;
+    margin-top: 40px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+footer > a {
+    color: #BDBDBD;
+    font-weight: bold;
+}
+
+/* Scarecrow */
+
+#Scarecrow > img {
+    margin-top: 60px;
+    padding-right: 120px;
+    width: 450px;
+}
+
+
+/* Content */
+
+#content {
+    width: 610px;
+}
+
+#content > h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+#content > a > button {
+
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+
+    height: 68px;
+    width: 216px;
+    border: 0px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #333333;
+}
