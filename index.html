@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Karan's devChallenges</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"/>
+        <style>
+
+            @media (min-width: 701px) {
+                body {
+                    width: 650px;
+                }
+            }
+            @media (max-width: 700px) {
+                body {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+            }
+
+            body {
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                margin: 0 auto;
+            }
+
+            #head {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            #head > h1 {
+                font-size: 36px;
+            }
+
+            #head > h1 > a {
+                color: #F7542E;
+            }
+
+            #head > p {
+                font-size: 18px;
+            }
+
+            .containerHead {
+                text-align: left;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .container {
+                display: grid;
+                
+                grid-column-gap: 10px;
+                grid-row-gap: 14px;
+                grid-template-columns: auto 50px;
+                
+            }
+
+            .container > a {
+                text-decoration: none;
+            }
+
+            .Project {
+                border: 1px solid black;
+                height: 50px;
+                border-radius: 25px;
+
+                font-size: 18px;
+                line-height: 50px;
+                
+                background-color: #8D9EFF;
+
+                color: black;
+            }
+            .Project:hover {
+                background-color: #8D72E1;
+                color: white;
+                font-weight: bold;
+
+            }
+            .GitHub-Link {
+                border: 1px solid black;
+                height: 50px;
+                border-radius: 25px;
+                background-color: #FFC3A1;
+            }
+            .GitHub-Link:hover {
+                background-color: #F0997D;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="head">
+            <h1>
+                Challenges from <a href="https://devchallenges.io/"
+                    target="_blank">devChallenges.io</a>
+            </h1>
+            <p>
+                Hello, World! This repository is a collection of various
+                web development challenges that I have completed.
+            </p>
+        </div>
+
+        <div class="containerHead">
+            Responsive Design
+        </div>
+
+        <div class="container">
+
+            <a href="404-not-found/index.html">
+                <div class="Project">
+                    404-not-found
+                </div>
+            </a>
+            <a href="404-not-found/index.html">
+                <div class="GitHub-Link">
+                    <img src="ASSETS/github-mark.svg" alt="Github" width="49px"> 
+                </div>
+            </a>
+
+        </div>
+
+    </body>
+</html>
